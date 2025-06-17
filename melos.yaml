@@ -48,7 +48,7 @@ scripts:
     run: dart analyze .
     exec:
       concurrency: 1
-      
+
   pub:get:
     description: Run `flutter pub get` for all packages.
     run: flutter pub get
